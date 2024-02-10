@@ -1,0 +1,33 @@
+<layout id="MainLayout">
+    <!-- Select Label -->
+    <label id="select_label" x="230" y="50" text="+"
+        font="Gfx.FONT_SMALL"
+        color="Graphics.COLOR_WHITE" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    
+    <!-- Period -->
+    <label id="period_label" x="center" y="20" text="period"
+        color="Graphics.COLOR_YELLOW"
+        font="Gfx.FONT_SMALL"
+        justification="Graphics.TEXT_JUSTIFY_CENTER" />
+    <label id="period_count" x="center" y="45" text="0"
+        font="Gfx.FONT_SMALL"
+        color="Graphics.COLOR_WHITE"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+
+    <!-- Home -->
+    <label id="home_label" x="10%" y="80" text="HOME"
+        color="Graphics.COLOR_BLUE"/>
+    <label id="home_score" x="25%" y="120" text="0"
+        font="Gfx.FONT_NUMBER_THAI_HOT"
+        color="Graphics.COLOR_WHITE"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+    
+    <!-- Away -->
+    <label id="away_label" x="60%" y="80" text="AWAY"
+        color="Graphics.COLOR_RED"/>
+    <label id="away_score" x="75%" y="120" text="0"
+        font="Gfx.FONT_NUMBER_THAI_HOT"
+        color="Graphics.COLOR_WHITE" 
+        justification="Graphics.TEXT_JUSTIFY_CENTER"/>
+</layout>
